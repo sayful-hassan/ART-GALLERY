@@ -1,4 +1,5 @@
 import "./Header.css";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
@@ -8,13 +9,13 @@ function Header() {
             <h2 className="navbar-brand">SAYFART</h2>
 
             <div className="col-md-10" id="unorderlist">
-              <ul className="nav-container">
-                <li className="nav-item active">Home</li>
-                <li className="nav-item">About the artist</li>
-                <li className="nav-item">Analog art</li>
-                <li className="nav-item">Digital art</li>
-                <li className="nav-item">Fashion art</li>
-                <li className="nav-item">Contact</li>
+              <ul className="container">
+                <li className="items"><Link to='/'>Home</Link></li>
+                <li className="items"><Link to='/about'>About the artist</Link></li>
+                <li className="items"><Link to='/analogart'>Analog art</Link></li>
+                <li className="items"><Link to='/digitalart'>Digital art</Link></li>
+                <li className="items"><Link to='/fashionart'>Fashion art</Link></li>
+                <li className="items"><Link to='/contact'>Contact</Link></li>
               </ul>
             </div>
           </nav>

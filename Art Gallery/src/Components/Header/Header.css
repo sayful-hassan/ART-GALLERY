@@ -21,21 +21,32 @@
         font-weight: 800;
         font-style: italic;
       }
-      .nav-container{
+      .container{
         display:flex;
         flex-direction: row;
         list-style-type: none;
-        gap: 45px;
+        gap: 40px;
         font-family: 'Courier New', Courier, monospace;
         float: right;
 
       }
-      .nav-item{
+      .items{
         display: flex;
         flex-direction: row;
         font-size: 18px;
         white-space: 1px;
-
+        color: var(--color);
+        list-style-type: none;
+      }
+      .items a {
+        color: var(--color);
+      }
+      .items a:hover{
+        color: var(--background-color);
+        background-color: var(--color);
+        text-decoration: none;
+        border-radius: 8px;
+        transition: ease-in-out 0.7s;
       }
      
 }
