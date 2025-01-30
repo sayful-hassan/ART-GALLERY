@@ -1,0 +1,42 @@
+@property --color{
+    syntax: "<color>";
+    inherits: true;
+    initial-value: #d2c7e0;
+}
+@property --background-color{
+    syntax: "<color>";
+    inherits: true;
+    initial-value: #0f0b14;
+}
+
+
+main{
+    position: relative;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5px;
+    background-color: var(--background-color);
+    
+    img{
+        width: 80%;
+        margin: 3%;
+        padding: 5px;
+    }
+
+    h2{
+        position: absolute;
+        top: 30%;
+        left: 45%;
+        text-align: center;
+        font-size: 40px;
+        color: var(--background-color);
+    }
+    h1{
+        position: absolute;
+        top: 43%;
+        left: 26%;
+        font-size: 80px;
+        font-weight: 900;
+        font-family: 'Times New Roman', Times, serif;
+    }
+}

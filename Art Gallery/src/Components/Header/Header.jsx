@@ -4,7 +4,6 @@ function Header() {
   return (
     <div className="container-fluid">
       <div className="row">
-        <header className="col-xs-12 col-md-12">
           <nav className="navbar  col-md-12">
             <h2 className="navbar-brand">SAYFART</h2>
 
@@ -19,7 +18,6 @@ function Header() {
               </ul>
             </div>
           </nav>
-        </header>
       </div>
     </div>
   );
