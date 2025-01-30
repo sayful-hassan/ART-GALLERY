@@ -1,0 +1,41 @@
+@property --color{
+    syntax: "<color>";
+    inherits: true;
+    initial-value: #d2c7e0;
+}
+@property --background-color{
+    syntax: "<color>";
+    inherits: true;
+    initial-value: #0f0b14;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    background-color: var(--background-color);
+    color: var(--color);
+    
+      .navbar-brand{
+        font-size: 35px;
+        font-weight: 800;
+        font-style: italic;
+      }
+      .nav-container{
+        display:flex;
+        flex-direction: row;
+        list-style-type: none;
+        gap: 45px;
+        font-family: 'Courier New', Courier, monospace;
+        float: right;
+
+      }
+      .nav-item{
+        display: flex;
+        flex-direction: row;
+        font-size: 18px;
+        white-space: 1px;
+
+      }
+     
+}
