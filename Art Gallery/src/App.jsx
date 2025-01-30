@@ -2,6 +2,7 @@ import './App.css'
 import Header from './Components/Header/Header'
 import Context from './Components/Section/Context'
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
+import AnalogArt from './Pages/Analog art/AnalogArt'
 
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
     <Header/>
       <Routes>
         <Route path='/' element={<Context/>} />
+        <Route path='/analogart' element={<AnalogArt/>} />
 
       </Routes>
     </Router>

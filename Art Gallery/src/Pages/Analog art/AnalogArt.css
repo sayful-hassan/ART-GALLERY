@@ -1,0 +1,38 @@
+@property --color{
+    syntax: "<color>";
+    inherits: true;
+    initial-value: #d2c7e0;
+}
+@property --background-color{
+    syntax: "<color>";
+    inherits: true;
+    initial-value: #0f0b14;
+}
+@keyframes fontZoom{
+    from{box-shadow: 0;}
+    to{box-shadow: 7px, 8px, 11px;}
+}
+.slider{
+    width: 800px;
+    height: 700px;
+    /* justify-items: center; */
+    justify-self: center;
+   
+     
+
+    
+}
+body{
+    background-color: var(--background-color);
+   
+}
+.title{
+    text-align: center;
+    color:var(--color);
+    font-weight: 800;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    animation-name: fontZoom;
+    animation-duration: 4s;
+    margin: 7px 10%;
+    box-shadow: 10px 10px 20px var(--color);
+}
