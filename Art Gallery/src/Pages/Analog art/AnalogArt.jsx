@@ -20,7 +20,7 @@ function AnalogArt() {
   return (
     <div>
         <h1 className='title'>ANALOG ART</h1>
-        <div className='slider'>
+        <div className='slider col-md-12'>
         <Slider images={analogArtImages}/>
 
         </div>

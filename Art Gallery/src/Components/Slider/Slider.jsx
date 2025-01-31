@@ -6,7 +6,7 @@ function Slider({images}) {
     <div className='container-fluid'>
      <div className='row'>
 
-        <div id="carouselExampleIndicators" className="carousel slide col-xl-12" data-ride="carousel">
+        <div id="carouselExampleIndicators" className="carousel slide col-md-12" data-ride="carousel">
     <ol className="carousel-indicators">
         {images.map((image, index)=>(
             
