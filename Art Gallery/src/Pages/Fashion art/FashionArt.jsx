@@ -13,7 +13,7 @@ function FashionArt() {
     ]
   return (
     <div>
-      <h1 className="title">ANALOG ART</h1>
+      <h1 className="title">FASHION ART</h1>
       <div className="slider col-md-12">
         <Slider images={fashionArtImages} />
       </div>
